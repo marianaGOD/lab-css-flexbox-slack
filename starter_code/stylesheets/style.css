@@ -8,3 +8,59 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #540B51;
+}
+  
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+nav {
+    display: inline-block;
+    flex-direction: row;
+}
+nav img {
+    width: 50%;
+}
+ul{
+    visibility: collapse ;
+}
+.buttons-top button {
+  background-color:#540B51; /* Green */
+  border: none;
+  color: white;
+  display: inline-block;
+  width: 75px;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content:space-between ;
+  
+}
+header{
+    display: flex;
+    padding:10px 25px 10px 25px;
+    
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    margin-left: 40%;
+    flex-flow: column;
+}
+header p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 40%;
+}
+.highlight {
+    color: rgb(236, 160, 46);
+    font-weight: bolder;
+}
